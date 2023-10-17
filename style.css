@@ -7,8 +7,11 @@
 
 /*Style the logo*/
 .logo1 {
- margin-left: 37rem;
- justify-content: center;
+  display: block; 
+  margin: 0 auto;
+justify-content: center;
+ width: 100%; 
+ text-align: center;
 }
 /* Style the header */
 header {
@@ -262,5 +265,18 @@ legend {
   .commments,
   .stay-connected {
     width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo1 {
+    max-width: 200px; /* Reduce the maximum width on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo1 {
+    max-width: 150px;
   }
 }
