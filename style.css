@@ -208,6 +208,7 @@ font-size: 1.2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   background-image: url(https://media.istockphoto.com/id/1338579925/vector/geometric-background-of-squares-and-dots.jpg?s=612x612&w=0&k=20&c=SZJsLHWoh2rTHRJP5bSss3a7xuY6GCE3iFLUDW2t0Q0=)
 }
 
@@ -252,4 +253,14 @@ legend {
   font-size: 1.5rem;
   text-transform: capitalize;
   text-shadow: #48a8ec 1px 1px 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .commments,
+  .stay-connected {
+    width: 100%;
+  }
 }
