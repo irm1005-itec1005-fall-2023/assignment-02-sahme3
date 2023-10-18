@@ -2,18 +2,281 @@
  * Assignment 02
  * CSS FILE
  */
+/* Apply a background color and set text color */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+/*Style the logo*/
+.logo1 {
+  display: block; 
+  margin: 0 auto;
+justify-content: center;
+ width: 100%; 
+ text-align: center;
+}
+/* Style the header */
+header {
+  background-color: #23323d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
-  font-size: 2rem;
+header h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
   font-weight: bold;
+}
+
+/* Style the main content */
+main {
+  padding: 20px;
+}
+
+article {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+article h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+article p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.conc{
+  margin-bottom: 2rem;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table caption {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the footer */
+footer {
+  background-color: #23323d;
+  color: #fff;
+  padding: 20px;
   text-align: center;
-  color: #023047;
+}
+
+.lien{
+  color: #fff;
+ margin-top:2rem;
+ margin-bottom:0.8rem;
+ justify-content: center;
+}
+.lien h4{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top:2rem;
+ margin-bottom:0.8rem;
+ justify-content: center;
+ font-size: 1.1rem;
+font-family: sans-serif;
+}
+
+.rel1 {
+  color: #fff;
+  margin-top:2rem;
+  margin-bottom:0.8rem;
+  justify-content: center;
+}
+
+.rel1 h4{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top:2rem;
+  margin-bottom:0.8rem;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-family:sans-serif;
+  font-size: 0.9rem;
+  list-style-type: none;
+}
+
+.toptitle {
+  margin-bottom:3rem;
+  text-shadow: #48a8ec 1px 1px 1px;
+  font-size: 2.5rem;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:capitalize;
+}
+
+.meta {
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-style:italic;
+}
+
+.sub1 {
+text-decoration: none;
+background-color: rgb(184, 186, 198);
+color: #23323d;
+border-radius: 1rem;
+padding: 0.5rem 0.5rem;
+margin-top: 1rem;
+margin-left:1rem;
+align-self: center;
+transition: background-color 1s; /*for the transition*/
+}
+
+.sub1:hover{
+    background-color: #23323d;
+    color: white;
+}
+
+.comsection {
+  margin-top: 3rem;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:capitalize;
+}
+
+
+.comsec{
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+
+
+main {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.stay-connected p {
+margin-bottom: 3rem;
+font-weight: bold;
+font-size: 1.2rem;
+}
+
+
+
+.flex-container{
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(https://media.istockphoto.com/id/1338579925/vector/geometric-background-of-squares-and-dots.jpg?s=612x612&w=0&k=20&c=SZJsLHWoh2rTHRJP5bSss3a7xuY6GCE3iFLUDW2t0Q0=)
+}
+
+.commments {
+  margin-top: 2rem;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:capitalize;
+  padding:2.5rem;
+  border: 8px solid #23323d;
+  border-radius: 1rem;
+  border-top: #48a8ec 8px solid;
+  border-bottom: #48a8ec 8px solid;
+  margin-left: 1.5rem;
+  margin-right: 2.5rem;
+  margin-bottom: 2rem;
+ justify-content: center;
+ display: flex;
+ width: 50%;
+ height: 100%;
+}
+
+.commments p{
+  font-weight: bold;
+}
+.stay-connected {
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:capitalize;
+  border: 8px solid #23323d;
+  border-radius: 1rem;
+  border-top: #48a8ec 8px solid;
+  border-bottom: #48a8ec 8px solid;
+  margin-right: 2.5rem;
+  padding: 2rem 2.5rem  4rem 2.5rem;
+  justify-content: center;
+  display: flex;
+  width: 96%;
+}
+
+
+legend {
+  margin-bottom:1rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-shadow: #48a8ec 1px 1px 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .commments,
+  .stay-connected {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo1 {
+    max-width: 200px; /* Reduce the maximum width on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo1 {
+    max-width: 150px;
+  }
 }
